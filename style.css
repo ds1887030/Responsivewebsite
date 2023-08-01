@@ -1,0 +1,237 @@
+/* Css Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navigation bar */
+#navbar{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+
+
+#logo{
+    margin: 0px 17px;
+
+}
+#logo img{
+    height: 50px;
+    width: 50px;
+
+
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+#navbar ul li{
+    
+    list-style: none;
+    font-size: 1.1rem;
+    
+   
+}
+#navbar ul li a{
+    color: white;
+    padding: 2px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 15px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    
+}
+/* Home section */
+
+#Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+}
+#Home::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(image/home.jpg) no-repeat center center/cover;
+    height: 335px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    
+}
+/* services section */
+
+#services{
+    margin: 32px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+    background-color: #eae9e9;
+}
+#services .box img{
+    display: block;
+   height: 100px;
+   margin: auto;
+   
+}
+#services .box p{
+    margin: 10px;
+}
+#services .box h3{
+    margin: 10px;
+}
+.h-primary{
+    font-size: 2rem;
+}
+
+/* Clients Services */
+
+
+#client-section{
+    position: relative;
+   height: 180px;
+}
+#client-section h1{
+
+    background-color: white;
+    color: black;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url(image/clientsbg.jpg);
+    height: 180px;
+    width: 100%;
+    z-index: -1;
+
+}
+
+
+.clients {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 135px;
+
+}
+.Client-item img{
+    height: 100px;
+    width: 150px;
+    padding: 15px;
+    
+}
+/* Contect Section */
+
+#contect-section{
+    position: relative;
+    height: 370px;
+}
+#contect-section::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(image/contectbg.jpg)no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.4;
+}
+#contect-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+#contect-box input,
+#contect-box textarea{
+    width: 100%;
+    border-radius: 4px;
+    padding: 4px;
+
+}
+#contect-box form{
+    width: 40%;
+}
+#contect-box label{
+    font-size: 1.1rem;
+}
+.submit:active{
+    background: red;
+}
+.submit{
+    display: block;
+    margin: 0px auto;
+    padding: 3px 30px;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+
+
+
+footer{
+    background-color: black;
+    margin: 10px 2px;
+    color: white;
+    height: 25px;
+}
+
+/* Utility class */
+
+#Home p{
+    color: white;
+    font-size: 1rem;
+}
+#Home h1{
+    color: white;
+    text-align: center;
+}
+.heading-p{
+    font-size: 2.5rem;
+    padding: 30px;
+
+}
+.btn:active{
+    background-color: red;
+}
+.btn{
+    padding: 5px 25px;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 30px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+.center{
+    text-align: center;
+}

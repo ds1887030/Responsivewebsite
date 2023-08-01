@@ -1,0 +1,54 @@
+/* Navigation bar */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    padding: 0px;
+    font-size: .9rem;
+}
+
+
+/* Home section */
+#Home{
+    flex-direction: column;
+    
+}
+
+.btn{
+    margin: 15px;
+}
+/* services section */
+#services{
+flex-direction: column;
+
+}
+#services .box{
+    padding: 4px;
+    margin: 3px;
+}
+
+/* client-section */
+
+.Client-item img{
+    height: 50px;
+    width: 40px;
+    padding: 10px;
+}
+
+/* Contect section */
+/* footer section */
+
+footer{
+    margin: 5px 2px;
+    height: 40px;
+}
+
+/* Utility Section */
+
+#Home p{
+    text-align: center;
+}
+.heading-p{
+    font-size: 26px;
+    padding: 0px;
+}
